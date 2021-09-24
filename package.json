@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "producer": "nodemon ./apps/producer/index.js",
+    "consumer": "nodemon ./apps/consumer/index.js",
+    "kafka": "docker compose up"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "kafkajs": "^1.15.0",
+    "nodemon": "^2.0.13",
+    "sucrase": "^3.20.1"
+  }
+}
